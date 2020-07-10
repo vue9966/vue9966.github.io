@@ -1,0 +1,531 @@
+view,
+button,
+input {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	border: none;
+	font-size: 60rpx;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+button::after {
+	border: none;
+}
+
+// 点击时样式
+.button-hover {
+	color: rgba(0, 0, 0, 0.6);
+	background-color: #fff;
+}
+
+page {
+	background: #fafafa;
+}
+
+/* flex-布局 */
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.f1 {
+	flex: 1;
+}
+
+.f2 {
+	flex: 2;
+}
+
+.f3 {
+	flex: 3;
+}
+
+/* 垂直居中 */
+.fvertical {
+	align-items: center;
+}
+
+/* 水平居中 */
+.fcenter {
+	justify-content: center;
+}
+
+/* 右对齐 */
+.fright {
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+/* 左右对着 */
+.between {
+	justify-content: space-between;
+}
+
+/* 字体 */
+.st {
+	font-size: 40rpx;
+	line-height: 40rpx;
+}
+
+.sf {
+	font-size: 36rpx;
+	line-height: 36rpx;
+}
+
+.s1 {
+	font-size: 32rpx;
+	line-height: 32rpx;
+}
+
+.s2 {
+	font-size: 28rpx;
+	line-height: 28rpx;
+}
+
+.s3 {
+	font-size: 24rpx !important;
+	line-height: 24rpx;
+}
+
+.s26 {
+	font-size: 26rpx;
+	line-height: 26rpx;
+}
+
+.s30 {
+	font-size: 30rpx;
+	line-height: 30rpx;
+}
+
+.s40 {
+	font-size: 40rpx !important;
+	line-height: 40rpx;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.ab-color {
+	color: #ababab;
+}
+
+.article-navg {
+	padding-right: 10rpx;
+	color: #999;
+}
+
+.theme-color {
+	color: #f13131;
+}
+
+.theme-bg {
+	background-color: #f13131;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #333;
+}
+
+.red {
+	color: #ff0000;
+}
+
+.gray {
+	color: #999;
+}
+
+.blue {
+	color: #2196f3;
+}
+
+.color-abab {
+	color: #AAABAF;
+}
+
+.color-8e {
+	color: #8e8e8e;
+}
+
+.color-4d {
+	color: #707473
+}
+
+.b0-color {
+	color: #b0b0b0
+}
+
+.color-9a {
+	color: #9a9a9a;
+}
+
+.color-8f {
+	color: #555
+}
+
+.color-333 {
+	color: #333
+}
+
+.color-666 {
+	color: #666;
+}
+
+.color-999 {
+	color: #999999;
+}
+
+.color-aaabaf {
+	color: #AAABAF;
+}
+
+.color-ff6 {
+	color: #FF6F00;
+}
+
+.color-00d {
+	color: #00D6B3;
+}
+
+.color-ff3333 {
+	color: #ff3333;
+}
+
+.color-c2c5ce {
+	color: #C2C5CE;
+}
+
+.color-ea4a4a {
+	color: #EA4A4A;
+}
+
+.color-ccc {
+	color: #CCCCCC;
+}
+.color-1989fa{
+	color: #1989fa;
+}
+.border_fafa {
+	border-bottom: 1px solid #fafafa
+}
+
+.bg-primary {
+	background-color: #00a8ff;
+}
+
+.bg-warning {
+	background-color: #fbc531;
+}
+
+.bg-success {
+	background-color: #4cd137;
+}
+
+.bg-error {
+	background-color: #f00;
+}
+
+.color-primary {
+	color: #00a8ff;
+}
+
+.color-warning {
+	color: #fbc531;
+}
+
+.color-success {
+	color: #4cd137;
+}
+
+.color-error {
+	color: #f00;
+}
+
+
+.line-ed {
+	width: 100%;
+	height: 20rpx;
+	background-color: #ededed;
+}
+
+.line-ed-min {
+	width: 100%;
+	height: 10rpx;
+	background-color: #ededed;
+}
+
+.bg-999 {
+	background-color: #999999 !important;
+}
+
+.evaluate-text {
+	text-align: center;
+}
+
+/* 文本超出... */
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ellipsis-2 {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+}
+
+.ellipsis-3 {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	text-overflow: ellipsis;
+}
+
+/* 卡片阴影 */
+.card {
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+	background-color: #fff;
+}
+
+/* 卡片式圆角 */
+.radius {
+	border-radius: 10rpx;
+}
+
+.radius-top {
+	border-top-left-radius: 10rpx;
+	border-top-right-radius: 10rpx;
+}
+
+.radius-bottom {
+	border-bottom-left-radius: 10rpx;
+	border-bottom-right-radius: 10rpx;
+}
+
+
+
+/* 整体页面 */
+.page {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #fff;
+	min-height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* iphoneX 吸底适配 */
+.iphonex_bottom_btn {
+	bottom: 52rpx !important;
+}
+
+.iphonex_bottom_btn::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	transform: translateY(100%);
+	height: 52rpx;
+	background: #fff;
+	z-index: 10;
+}
+
+.iphonex_bottom_view {
+	width: 100%;
+	height: 52rpx;
+}
+
+/* 滑动出现动画 */
+.slideY {
+	animation: slide-y 0.5s;
+}
+
+@keyframes slide-y {
+	0% {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+/* 球类 */
+.ball {
+	width: 60rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	display: inline-block;
+	border-radius: 100%;
+	margin-right: 10rpx;
+	overflow: hidden;
+}
+
+.red-ball {
+	background-color: #f13131;
+}
+
+.blue-ball {
+	background-color: #1c3bd8;
+}
+
+.bj {
+	width: 40rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	display: inline-block;
+	border-radius: 2px;
+	margin-right: 10rpx;
+	overflow: hidden;
+	color: #fff;
+	font-size: 28rpx;
+	font-weight: bold;
+}
+
+.bj-1 {
+	background-color: #FFCC00;
+}
+
+.bj-2 {
+	background-color: #0089ff;
+}
+
+.bj-3 {
+	background-color: #4d4d4d;
+}
+
+.bj-4 {
+	background-color: #ff7300;
+}
+
+.bj-5 {
+	background-color: #3399CC;
+}
+
+.bj-6 {
+	background-color: #5200ff;
+}
+
+.bj-7 {
+	background-color: #bbbbbb;
+}
+
+.bj-8 {
+	background-color: #ff0000;
+}
+
+.bj-9 {
+	background-color: #760000;
+}
+
+.bj-10 {
+	background-color: #28c200;
+}
+
+.nav-top {
+	width: 100%;
+	padding: 0 20rpx;
+	height: 80rpx;
+	border-bottom: 1px solid #eee;
+}
+
+.nav-top-l {
+	height: 100%;
+}
+
+.iphonex_top {
+	padding-top: 40rpx;
+}
+
+/* iphoneX 吸底适配 */
+.iphonex_bottom_btn {
+	bottom: 52rpx !important;
+}
+
+.iphonex_bottom_btn::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	transform: translateY(100%);
+	height: 52rpx;
+	background: #fff;
+	z-index: 10;
+}
+
+.iphonex_bottom_view {
+	width: 100%;
+	height: 52rpx;
+}
+
+/* 滑动出现动画 */
+.slideY {
+	animation: slide-y 0.5s;
+}
+
+@keyframes slide-y {
+	0% {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+/* 三角形 */
+.arrow {
+	position: relative;
+}
+
+.arrow:after {
+	content: '';
+	display: inline-block;
+	width: 16rpx;
+	height: 16rpx;
+	border: 2rpx solid #a3a3a3;
+	border-bottom: none;
+	border-left: none;
+	transform: rotate(45deg);
+}
+
+.arrow-white {
+	position: relative;
+}
+
+.arrow-white:after {
+	content: '';
+	display: inline-block;
+	width: 16rpx;
+	height: 16rpx;
+	border: 2px solid #FFFFFF;
+	border-bottom: none;
+	border-left: none;
+	transform: rotate(45deg);
+}
+
+.loadmore {
+	padding: 30rpx 0;
+}
