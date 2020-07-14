@@ -213,9 +213,11 @@ page {
 .color-ccc {
 	color: #CCCCCC;
 }
-.color-1989fa{
+
+.color-1989fa {
 	color: #1989fa;
 }
+
 .border_fafa {
 	border-bottom: 1px solid #fafafa
 }
@@ -320,12 +322,13 @@ page {
 
 
 /* 整体页面 */
-.page {
-	width: 100%;
+page {
+	/* width: 100%;
 	box-sizing: border-box;
 	background-color: #fff;
 	min-height: 100vh;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif; */
+	padding-bottom: 60rpx;
 }
 
 /* iphoneX 吸底适配 */
@@ -529,3 +532,5 @@ page {
 .loadmore {
 	padding: 30rpx 0;
 }
+
+
