@@ -6,6 +6,11 @@ input {
 	-webkit-tap-highlight-color: transparent;
 }
 
+input {
+	outline: none !important;
+	border: none !important;
+}
+
 button {
 	margin: 0;
 	padding: 0;
@@ -533,4 +538,40 @@ page {
 	padding: 30rpx 0;
 }
 
+uni-toast .uni-toast {
+	width: auto;
+	padding: 16rpx;
+	font-size: 24rpx;
+}
 
+.uni-toast .uni-icon_toast {
+	display: none;
+}
+
+.uni-toast .uni-toast__content {
+	margin: 0;
+}
+
+.nodata {
+	text-align: center;
+}
+
+.add-list-file {
+	width: 192rpx;
+	height: 192rpx;
+	background-color: #f4f5f6;
+	border-radius: 8rpx;
+	text-align: center;
+	margin-top: 20rpx;
+}
+
+.file-icon {
+	padding-top: 50rpx;
+	padding-bottom: 18rpx;
+}
+
+
+.file-list-item {
+	height: 80rpx;
+	line-height: 80rpx;
+}
