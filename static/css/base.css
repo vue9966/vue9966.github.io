@@ -24,7 +24,7 @@ button::after {
 	border: none;
 }
 
-// 点击时样式
+/* // 点击时样式 */
 .button-hover {
 	color: rgba(0, 0, 0, 0.6);
 	background-color: #fff;
@@ -563,6 +563,14 @@ uni-toast .uni-toast {
 	border-radius: 8rpx;
 	text-align: center;
 	margin-top: 20rpx;
+	margin-right: 10rpx;
+	position: relative;
+}
+
+.file-close {
+	position: absolute;
+	top: 10rpx;
+	right: 10rpx;
 }
 
 .file-icon {
@@ -574,4 +582,37 @@ uni-toast .uni-toast {
 .file-list-item {
 	height: 80rpx;
 	line-height: 80rpx;
+}
+
+.u-drawer-content {
+	width: 30px;
+	height: 30px;
+}
+
+.myPopup .u-drawer-content-visible {
+	width: 30px !important;
+	height: 30px !important;
+	top: 48% !important;
+	left: 48% !important;
+	transform: translate(-50%, -50%) !important;
+	font-size: 36px !important;
+
+}
+
+.myPopup .u-mode-center-box {
+	background: transparent !important;
+
+}
+
+.u-radio {
+	width: 100% !important;
+	border-bottom: 2rpx solid #ccc;
+	padding: 8px;
+}
+.noticeContent .u-drawer-center{
+	width: 70%;
+	height: 200px;
+	margin: 50% auto 0;
+	transform: translateY(-50%);
+	border-radius: 10px;
 }
